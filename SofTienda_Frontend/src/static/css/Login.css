@@ -1,0 +1,32 @@
+:root {
+	--bs-body-bg: #ddebca;
+  --bs-info-rgb: 139,199,58;
+}
+.btn-info {
+	color: #fff;
+  background-color: #8bc73a;
+  border-color: #8bc73a; 
+}
+.btn-info:hover,
+.btn-info:focus {
+	color: #000;
+  background-color: #8bc73a;
+  border-color: #8bc73a; 
+  box-shadow: 0 0 0 0.25rem rgb(139 199 58 / 50%);
+}
+.login {
+  padding-top: 30px;
+}
+.login-box {
+  margin-top: 40px;
+  max-width: 600px;
+  height: 320px;
+  border: 1px solid #9C9C9C;
+  background-color: #EAEAEA;
+}
+.login-form {
+  padding: 20px;
+}
+.register-link {
+  margin-top: -85px;
+}

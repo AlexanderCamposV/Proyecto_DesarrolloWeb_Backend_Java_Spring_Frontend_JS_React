@@ -1,0 +1,52 @@
+:root {
+	--bs-body-bg: #ddebca;
+  --bs-info-rgb: 139,199,58;
+}
+
+body {
+  background-color: var(--bs-body-bg);
+	min-height: 100vh;
+}
+
+.inicio {
+  padding-top: 30px;
+}
+
+.inicio .botones {
+	display: flex;
+	justify-content: space-around;
+	align-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+  background-color: #EAEAEA;
+  border: 1px solid #9C9C9C;
+  width: 80%;
+  margin: 50px auto 0;
+  padding: 25px;
+}
+
+.inicio .botones h3 {
+  color: rgb(var(--bs-info-rgb));
+  font-size: 1.5rem;
+  padding-bottom: 20px;
+  text-align: center;
+  text-shadow: 1px 1px #ddd;
+  width: 100%;
+}
+
+.inicio .botones a {
+  width: 25%;
+}
+
+.inicio .botones a img {
+  width: 100%;
+}
+
+.inicio h1 {
+  text-align: center;
+}
+
+.inicio h2 {
+  text-align: center;
+}
+

@@ -1,0 +1,12 @@
+.btn-logout {
+  color: rgb(var(--bs-info-rgb));
+  border: none;
+  background: none;
+  opacity: .8;
+}
+
+.btn-logout:hover {
+  font-weight: bold;
+  opacity: 1;
+  color: gray;
+}

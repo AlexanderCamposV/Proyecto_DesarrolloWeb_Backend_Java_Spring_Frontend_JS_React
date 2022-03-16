@@ -1,0 +1,57 @@
+.p-column-title {
+  color: rgb(var(--bs-info-rgb));
+}
+
+body .app-header {
+  font-size: calc(10px + 1vmin);
+}
+
+body .p-panel .p-panel-titlebar {
+  color: rgb(var(--bs-info-rgb));
+  font-size: 2em;
+  text-align: center;
+  text-shadow: 1px 1px #ddd;
+}
+
+body .p-paginator .p-paginator-pages .p-paginator-page.p-highlight {
+  background-color: rgb(var(--bs-info-rgb));
+}
+
+body .p-link:focus {
+  box-shadow: 0 0 0 0.25rem rgb(var(--bs-info-rgb)/ 50%);
+}
+
+body .p-dialog .p-dialog-titlebar {
+  color: rgb(var(--bs-info-rgb));
+  font-size: 2em;
+  text-align: center;
+  text-shadow: 1px 1px #ddd;
+}
+
+body .p-datatable .p-datatable-tbody > tr.p-highlight, 
+body .p-datatable .p-datatable-tbody > tr:nth-child(even).p-highlight {
+  background-color: rgb(var(--bs-info-rgb));
+}
+
+body .p-button {
+  color: #fff;
+  background-color: #8bc73a;
+  border: #8bc73a; 
+}
+body .p-button:hover,
+body .p-button:focus {
+	color: #000 !important;
+  background-color: #8bc73a !important;
+  border-color: #8bc73a !important; 
+  box-shadow: 0 0 0 0.25rem rgb(139 199 58 / 50%) !important;
+}
+
+body .p-datatable .p-datatable-tbody > tr > td {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+
+
+
+

@@ -1,0 +1,14 @@
+.total {
+  color: rgb(var(--bs-info-rgb));
+  font-size: 1.5rem;
+  margin-top: 20px;
+  text-align: right;
+}
+
+.total strong {
+  color: var(--bs-body-color);
+}
+
+body .p-datatable .p-datatable-tbody > tr > td:nth-child(3) {
+  text-align: right;
+}
